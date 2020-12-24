@@ -314,19 +314,19 @@
   <div id="gitment-ctn"></div> 
 <!-- <link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
 <script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
-<link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
-<script src="https://billts.site/js/gitment.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script>
-var gitment = new Gitment({
-  id: "http://example.com/2020/12/23/My-First-Post/",
-  owner: 'false',
+var Gitalk = new Gitalk({
+  clientID: 'XYDong',
+  clientSecret: 'ef38b9bdda5cbb44a5743e74a24223b0518aa5c7',
   repo: 'blog_repo',
-  oauth: {
-    client_id: '74ebeee1affa5363a286',
-    client_secret: 'ef38b9bdda5cbb44a5743e74a24223b0518aa5c7',
-  },
+  owner: 'XYDong',
+  admin: ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
+  id: location.pathname,      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
 })
-gitment.render('gitment-ctn')
+Gitalk.render('gitalk-container')
 </script>
   
   
