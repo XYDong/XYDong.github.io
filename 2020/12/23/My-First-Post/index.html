@@ -311,25 +311,24 @@
 
   
   
-    <!-- 来必力City版安装代码 -->
-<div id="lv-container" data-id="city" data-uid='MTAyMC81MjI2My8yODc0Mg'>
-	<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-	</script>
-<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
-</div>
-<!-- City版安装代码已完成 -->
-
+  <div id="gitment-ctn"></div> 
+<!-- <link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
+<link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+<script src="https://billts.site/js/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://example.com/2020/12/23/My-First-Post/",
+  owner: 'false',
+  repo: 'blog_repo',
+  oauth: {
+    client_id: '74ebeee1affa5363a286',
+    client_secret: 'ef38b9bdda5cbb44a5743e74a24223b0518aa5c7',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
   
 
 
