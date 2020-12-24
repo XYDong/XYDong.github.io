@@ -353,22 +353,21 @@
 
   
   
-  <div id="gitalk-container"></div> 
+    <div id="gitalk-container"></div> 
 <!-- <link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
 <script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script>
 var Gitalk = new Gitalk({
-  clientID: '74ebeee1affa5363a286',
-  clientSecret: 'ef38b9bdda5cbb44a5743e74a24223b0518aa5c7',
-  repo: 'XYDong.github.io',
-  owner: 'XYDong',
-  admin: ['XYDond'],
-  id: location.pathname,      // Ensure uniqueness and length less than 50
-  distractionFreeMode: true  // Facebook-like distraction free mode
-})
-Gitalk.render('gitalk-container')
+    clientID:  '74ebeee1affa5363a286', 
+    clientSecret: 'ef38b9bdda5cbb44a5743e74a24223b0518aa5c7',
+    id: window.location.pathname,
+    repo: 'blog_repo', 
+    owner: 'XYDong', 
+    admin: 'XYDong', 
+    distractionFreeMode: 'true',
+}).render('gitalk-container')
 </script>
   
   
