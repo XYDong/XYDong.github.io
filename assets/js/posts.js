@@ -9,7 +9,7 @@ const SITE = {
   bio: "希望能一直坚持。记录生活、读书与那些偶尔闪过的念头。",
   email: "shuiqingshuying@gmail.com",
   github: "https://github.com/XYDong",
-  avatar: "https://avatars.githubusercontent.com/u/19562730?v=4",
+  avatar: "assets/img/avatar.png",
   startYear: 2020,
 };
 
@@ -19,6 +19,18 @@ const SITE = {
  * cover 用 emoji + 渐变色，零图片依赖
  * ============================================================ */
 const POSTS = [
+  {
+    slug: "street-corner",
+    title: "街角观察记",
+    date: "2026-11-16",
+    category: "生活",
+    tags: ["观察", "随笔"],
+    excerpt: "在街角的咖啡馆坐一下午，看人来人往。花店老板多塞的一枝满天星，陌生人让出的一寸屋檐——生活最动人的部分，往往安静得容易被错过。",
+    cover: "☕",
+    gradient: "linear-gradient(135deg,#d1913c 0%,#ffd194 100%)",
+    words: 1180,
+    file: "posts/street-corner.html",
+  },
   {
     slug: "rainy-day-reading",
     title: "在雨声里读一本书",

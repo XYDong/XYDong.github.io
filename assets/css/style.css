@@ -5,18 +5,18 @@
 
 /* ---------- 设计变量 ---------- */
 :root {
-  --bg: #f7f8fa;
-  --bg-soft: #ffffff;
+  --bg: #faf7f2;
+  --bg-soft: #fffdf9;
   --bg-elev: #ffffff;
-  --text: #2c3038;
-  --text-soft: #6b7280;
-  --text-faint: #9aa1ac;
-  --border: #e8eaee;
-  --accent: #5b6ef5;
-  --accent-soft: #eef0ff;
-  --accent-text: #4a5ae0;
-  --shadow: 0 1px 3px rgba(20, 25, 40, .04), 0 8px 30px rgba(20, 25, 40, .05);
-  --shadow-hover: 0 4px 12px rgba(20, 25, 40, .07), 0 16px 40px rgba(20, 25, 40, .09);
+  --text: #3a322c;
+  --text-soft: #7d7268;
+  --text-faint: #a89c90;
+  --border: #ece4d9;
+  --accent: #c1693d;
+  --accent-soft: #f9ebe0;
+  --accent-text: #a9532a;
+  --shadow: 0 1px 3px rgba(90, 60, 40, .05), 0 8px 30px rgba(90, 60, 40, .06);
+  --shadow-hover: 0 4px 12px rgba(90, 60, 40, .08), 0 16px 40px rgba(90, 60, 40, .10);
   --radius: 16px;
   --radius-sm: 10px;
   --maxw: 1120px;
@@ -26,16 +26,16 @@
 }
 
 html[data-theme="dark"] {
-  --bg: #12141a;
-  --bg-soft: #1b1e26;
-  --bg-elev: #20242e;
-  --text: #e6e8ee;
-  --text-soft: #a2a9b6;
-  --text-faint: #6f7683;
-  --border: #2d323e;
-  --accent: #7c8bff;
-  --accent-soft: #262b45;
-  --accent-text: #a3adff;
+  --bg: #1a1613;
+  --bg-soft: #241e1a;
+  --bg-elev: #2b241f;
+  --text: #ede7e0;
+  --text-soft: #b0a59b;
+  --text-faint: #7d7268;
+  --border: #3a3029;
+  --accent: #e08d5b;
+  --accent-soft: #382a20;
+  --accent-text: #eda674;
   --shadow: 0 1px 3px rgba(0, 0, 0, .3), 0 8px 30px rgba(0, 0, 0, .25);
   --shadow-hover: 0 6px 16px rgba(0, 0, 0, .4), 0 18px 44px rgba(0, 0, 0, .35);
 }
