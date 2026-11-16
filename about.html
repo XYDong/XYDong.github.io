@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>关于 - Joker｜笔记</title>
+  <meta name="description" content="关于 Joker 和这个博客">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/19562730?v=4">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/posts.js"></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html"><span class="dot"></span><span>Joker｜笔记</span></a>
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html">首页</a>
+        <a href="archives.html">归档</a>
+        <a href="tags.html">标签</a>
+        <a class="active" href="about.html">关于</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeBtn" aria-label="切换主题"></button>
+        <button class="icon-btn menu-toggle" id="menuBtn" aria-label="菜单">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-head"><h1>关于</h1><p>一点点自我介绍</p></div>
+    <div class="wrap"><div class="page-body">
+      <article class="card" style="max-width:720px;margin:0 auto">
+        <div style="text-align:center;padding:12px 0 24px">
+          <img src="https://avatars.githubusercontent.com/u/19562730?v=4" alt="Joker" style="width:96px;height:96px;border-radius:50%;margin:0 auto 16px;box-shadow:var(--shadow)"/>
+          <h2 style="margin:0;font-size:1.5rem">Joker</h2>
+          <p style="color:var(--text-soft);margin:6px 0 0">希望能一直坚持。</p>
+        </div>
+        <div class="prose" style="font-size:1rem">
+          <p>你好，我是 Joker，一个普通的记录者。这个博客叫"笔记"，理由很简单——一切都可以记录。</p>
+          <p>这里没有宏大的主题，也没有精心经营的人设。有的只是我在生活里遇到的一些事、读到的一本书、偶尔闪过脑海的一个念头。把它们写下来，是为了不至于忘记，也是为了在回望时，能看见自己走过的痕迹。</p>
+          <h2>这里写什么</h2>
+          <p>大致是三类：读书的感想、生活的观察，以及一些不成体系的随想。更新不定时，全凭兴致，但每一篇都是认真写的。</p>
+          <h2>联系我</h2>
+          <p>如果你读到了这里，并且恰好想说点什么，欢迎找我：</p>
+          <p><a href="https://github.com/XYDong" target="_blank" rel="noopener" style="color:var(--accent-text)">GitHub · XYDong</a><br>
+          <a href="mailto:shuiqingshuying@gmail.com" style="color:var(--accent-text)">shuiqingshuying@gmail.com</a></p>
+        </div>
+      </article>
+    </div></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Joker｜笔记 · 用记录对抗遗忘 · 由 GitHub Pages 驱动</p>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  
+</body>
+</html>

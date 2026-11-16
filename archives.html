@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>归档 - Joker｜笔记</title>
+  <meta name="description" content="所有文章的时间线">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/19562730?v=4">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/posts.js"></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html"><span class="dot"></span><span>Joker｜笔记</span></a>
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html">首页</a>
+        <a class="active" href="archives.html">归档</a>
+        <a href="tags.html">标签</a>
+        <a href="about.html">关于</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeBtn" aria-label="切换主题"></button>
+        <button class="icon-btn menu-toggle" id="menuBtn" aria-label="菜单">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-head"><h1>归档</h1><p>所有写下的文字，按时间排列</p></div>
+    <div class="wrap"><div class="page-body"><div class="timeline" id="timeline"></div></div></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Joker｜笔记 · 用记录对抗遗忘 · 由 GitHub Pages 驱动</p>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  
+</body>
+</html>
